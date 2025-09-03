@@ -1,0 +1,281 @@
+.App-opining {
+  max-width: 900px;
+  margin: auto auto;
+  margin-top: 10px;
+  padding: 20px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: row;
+  border-width: 2px;
+  border-color: #475569;
+  border-style: solid; 
+}
+
+/* Table-like layout for states */
+.App-opining ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App-opining li {
+  display: grid;
+  grid-template-columns: 200px repeat(5, 1fr);
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #222;
+  font-size: 14px;
+  gap: 30px;
+}
+
+.App-opining li p {
+  margin: 0;
+  
+}
+
+/* Column coloring */
+.App-opining li p:nth-child(1) {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.App-opining li p:nth-child(2) {
+  color: #ff4d4d; 
+}
+
+.App-opining li p:nth-child(3) {
+  color: #4da6ff; 
+}
+
+.App-opining li p:nth-child(4) {
+  color: #4dff88; 
+}
+
+.App-opining li p:nth-child(5) {
+  color: #b3b3b3; 
+}
+
+.App-opining li p:nth-child(6) {
+  color: #e6e6e6;
+}
+
+/* Hover effect */
+.App-opining li:hover {
+  background-color: #15163a;
+}
+
+.App{
+  background-color: #161625;
+  width: 100vw;
+}
+.App-nav-links {
+  display: flex;
+
+}
+
+.App-nav-links:hover{
+  text-decoration: underline;
+}
+
+.App-opining-header {
+  margin: 0 15px;
+  color: red;
+  transition: color 0.3s;
+  display: flex;
+  gap:20px;
+  font-family:roboto;
+}
+
+.App-search-input{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+
+.App-search{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  padding: auto;
+  
+}
+.App-opining-image {
+  width: 100vh;
+  height: auto;
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
+
+.see_deatils_button {
+  background-color: linear-gradient(135deg, #4facfe, #00f2fe);;
+  border: 2px solid white;   
+  border-radius: 8px;        
+  color: red;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 16px;
+  margin: 6px 4px;
+  width: 120px;            
+  cursor: pointer;           
+  transition: all 0.3s ease; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15); 
+}
+
+.see_deatils_button:hover {
+  background-color:  linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  transform: scale(1.05);    
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.App-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;  
+
+}
+
+.icon-h3{
+  color: red;
+  font-family: roboto;
+   margin: 2;
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-icon-number{
+  color:red;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+}
+.app-icon-1{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ padding-left: 50px; 
+ padding-right: 50px;
+  margin-right: 20px;
+
+}
+
+.app-icon-1:hover{
+  background-color: rgb(51, 20, 39);
+  border-radius: 7px;
+}
+
+.app-icon-2{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 50px; 
+  padding-right: 50px;
+  margin-right: 20px;
+  /* margin-left: 20px; */
+}
+
+.icon-h3-2{
+  color: #007BFF;
+  font-family: roboto;
+   margin: 2;
+}
+ .app-icon-number-2{
+    color:#007bff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+ }
+
+ .app-icon-2:hover{
+  background-color:  rgb(22, 27, 58);
+  border-radius: 7px;
+ }
+
+
+ .app-icon-3{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+   padding-left: 50px; 
+ padding-right: 50px;
+  margin-right: 20px;
+}
+
+.icon-h3-3{
+  color: #28A745;
+  font-family: roboto;
+   margin: 2;
+
+}
+ .app-icon-number-3{
+    color:#28A745;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+ }
+
+ .app-icon-3:hover{
+  background-color:  rgb(22, 58, 30);
+  border-radius: 7px;
+ }
+
+
+ .app-icon-4{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 10px;  */
+   padding-left: 50px; 
+    padding-right: 50px;
+      margin-right: 20px;
+}
+
+.icon-h3-4{
+  color: #6C757D;
+  font-family: roboto;
+   margin: 2;
+
+}
+ .app-icon-number-4{
+    color:#6C757D;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+ }
+
+ .app-icon-4:hover{
+  background-color:#333d47;
+  border-radius: 7px;
+ }

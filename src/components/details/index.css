@@ -1,0 +1,142 @@
+.App-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;  
+
+}
+
+.icon-h3{
+  color: red;
+  font-family: roboto;
+   margin: 2;
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-icon-number{
+  color:red;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+}
+.app-icon-1{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ padding-left: 50px; 
+ padding-right: 50px;
+  margin-right: 20px;
+
+}
+
+.app-icon-1:hover{
+  background-color: rgb(51, 20, 39);
+  border-radius: 7px;
+}
+
+.app-icon-2{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 50px; 
+  padding-right: 50px;
+  margin-right: 20px;
+}
+
+.icon-h3-2{
+  color: #007BFF;
+  font-family: roboto;
+   margin: 2;
+}
+ .app-icon-number-2{
+    color:#007bff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+ }
+
+ .app-icon-2:hover{
+  background-color:  rgb(22, 27, 58);
+  border-radius: 7px;
+ }
+
+
+ .app-icon-3{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+   padding-left: 50px; 
+ padding-right: 50px;
+  margin-right: 20px;
+}
+
+.icon-h3-3{
+  color: #28A745;
+  font-family: roboto;
+   margin: 2;
+
+}
+ .app-icon-number-3{
+    color:#28A745;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+ }
+
+ .app-icon-3:hover{
+  background-color:  rgb(22, 58, 30);
+  border-radius: 7px;
+ }
+
+
+ .app-icon-4{
+  border-width:2px;
+  border-style:bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 10px;  */
+   padding-left: 50px; 
+    padding-right: 50px;
+      margin-right: 20px;
+}
+
+.icon-h3-4{
+  color: #6C757D;
+  font-family: roboto;
+   margin: 2;
+
+}
+ .app-icon-number-4{
+    color:#6C757D;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 2;
+ }
+
+ .app-icon-4:hover{
+  background-color:#333d47;
+  border-radius: 7px;
+ }
